@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PM2E17409.ListaUbicaciones">
+    <ContentPage.Content>
+        <StackLayout>
+            <ListView x:Name="ListaUbicacion" ItemSelected="ListaUbicacion_ItemSelected"  RowHeight="125">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell >
+
+                            <Grid >
+
+                                <Label  Grid.Column="0"
+                                    Grid.Row="0"
+                                    Text="Descripcion: "
+                                    TextColor="Black"
+                                    FontSize="20"/>
+
+                                <Label Grid.Column="1"
+                                   Grid.Row="0"
+                                   Text="{Binding DescripcionCorta}" 
+                                   FontSize="20"/>
+
+
+
+                                <Button  Grid.Column="0"
+                                         Grid.Row="1"
+                                         x:Name="btnEliminar" 
+                                         Text="Eliminar"
+                                         Margin="20,10" 
+                                         CornerRadius="30"
+                                         BackgroundColor="#E12E29"                                   
+                                         Clicked="btnEliminar_Clicked" />
+
+                                <Button Grid.Column="1"
+                                   Grid.Row="1"
+                                        x:Name="btnVistaMapa"
+                                            Text="Ver Mapa" 
+                                            Margin="20,10" 
+                                            CornerRadius="30"
+                                            BackgroundColor="#55C5DA" 
+                                            Clicked="btnVistaMapa_Clicked"/>
+
+                            </Grid>
+
+                        </ViewCell>
+
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
