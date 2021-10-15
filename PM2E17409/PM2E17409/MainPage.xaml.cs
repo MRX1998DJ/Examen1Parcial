@@ -75,8 +75,8 @@ namespace PM2E17409
                 {
                     Latitud = 13.376050848869307,
                     Longitud = -86.95442141354778,
-                    DescripcionLarga = "Ubicada en San Marcos de Colon",
-                    DescripcionCorta = "La Peña",
+                    DescripcionLarga = "Ubicada en el Progreso Yoro",
+                    DescripcionCorta = "La perla",
                 };
 
                 resultado = conexion.Insert(Location);
@@ -87,8 +87,8 @@ namespace PM2E17409
                 {
                     Latitud = 13.31415238095598,
                     Longitud = -87.19161111806798,
-                    DescripcionLarga = "Salida a Choluteca",
-                    DescripcionCorta = "Hotel Gualiqueme",
+                    DescripcionLarga = "Salida a la Lima cortes",
+                    DescripcionCorta = "Hotel montreal",
                 };
 
                 resultado = conexion.Insert(Location2);
@@ -98,8 +98,8 @@ namespace PM2E17409
                 {
                     Latitud = 13.465497133002827,
                     Longitud = -86.7309240180663,
-                    DescripcionLarga = "San Marcos de Colon, Cerca de La Frotenra con Nicaragua",
-                    DescripcionCorta = "Cañon Caulato",
+                    DescripcionLarga = "salida a santarrita el balsamo",
+                    DescripcionCorta = "CA14",
                 };
 
                 resultado = conexion.Insert(Location3);

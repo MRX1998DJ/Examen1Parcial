@@ -25,11 +25,7 @@
         <StackLayout>
 
 
-            <Image 
-                     
-                    Margin="20,5,10,5"
-                   Source="logouth.png"/>
-
+   
             <!--Ingresa Latitud-->
             <Label  Margin="20,10,0,0"
                     FontSize="20"
@@ -70,7 +66,7 @@
                 <Button x:Name="btnGuardarUbicacion"
                     HeightRequest="50"
                     CornerRadius="20"
-                    BackgroundColor="#6EF748"
+                    BackgroundColor="Red"
                     Text="Salvar Ubicacion" 
                     Clicked="btnGuardarUbicacion_Clicked"/>
 
@@ -85,7 +81,7 @@
                     Margin="20,10"
                     HeightRequest="50"
                     CornerRadius="10"
-                    BackgroundColor="#F748EF"
+                    BackgroundColor="Yellow"
                     Text="Ingresar Datos de Prueba" 
                     Clicked="btnRegistrarData_Clicked"/>
 
